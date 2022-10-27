@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chate Room</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <h1>This is Spring Chat Room Project</h1>
+    <div class="line hide" id="msgform">
+        <input type="text" id="in" placeholder="Enter your massage">
+        <button id="sub" type="Submit"> Send </button>
+    </div>
+    <table>
+    <div class="massages" id="mass">
+       
+
+    </div>
+    </table>
+    <div class="login" id="login" id="name" >
+        <input  id="name" type="text"placeholder="Enter your name" autofocus>
+        <input id="lg" type="submit" value="Log in">
+    </div>
+</body>
+
+</html>
